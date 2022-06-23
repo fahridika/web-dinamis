@@ -1,0 +1,536 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.x{
+  margin-top: 4px;
+  width: 250px;
+  height: 55px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.logo{
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 25px;
+}
+section .gambar1 {
+
+  margin-left: 300px;
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .dika {
+
+  margin-left: 300px;
+  float: right;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  /* margin: 40px 40px auto; */
+  /* background: #000; */
+}
+
+section .gambar2 {
+  margin-right: 300px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .fadhil {
+  float: left;
+  width: 242px;
+  height: 300px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+/* .imgkelompok{
+  width: 25%;
+  margin: 0 auto;
+} */
+
+section .gambar3 {
+  margin: 10px;
+}
+
+section .sulas {
+  margin-left: 300px;
+  float: right;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+
+
+section .gambar4 {
+  margin: 10px;
+  width: 400px;
+  /* background: red; */
+}
+
+
+
+.container{
+  padding: 5px;
+  margin: 10%;
+}
+
+section .imgcontact {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.kolom2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+section .yusuf {
+  /* margin-left: 300px; */
+  float: left;
+  width: 300px;
+  height: 300px;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.kolom .deskripsi {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #5d7a9e;
+  
+}
+
+.kolom2 .deskripsi {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #5d7a9e;
+  
+}
+
+.kolom .deskripsi .flayanan {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.kolom .deskripsi-iklan {
+  font-size: 16px;
+  font-family: "comic sans ms";
+  color: black;
+  
+}
+
+.kolom .deskripsi-iklan1 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.kolom .deskripsi-iklan .strong-aboutme {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru {
+  background-color: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+a.tbl-biru:hover {
+  background-color: #fc6185;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background-color: #fc6185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background-color: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.aboutwe{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgkelompok{
+  width: 25%;
+  margin: 0 auto;
+}
+
+.imgdetail{
+  box-shadow: 2px 3px 5px black;
+}
+
+.imgkelompok img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.imgkelompok p {
+  font-family: "comic sans ms";
+  font-weight: 800px;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.layanan {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imglayanan {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.imglayanan img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.imglayanan p {
+  font-family: "comic sans ms";
+  font-weight: 800px;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #dedede;
+}
+
+.footer-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+}
+
+
+
+.main {
+ max-height: 550px;;
+ background-color: #292c2f;
+ color: white;
+ font-size: 38pt;
+ text-align: center;
+ line-height: 550px;
+}
+footer{
+ position: relative;
+ bottom: 0;
+}
+.footer-distributed{
+ background-color: #3e4247;
+ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+ box-sizing: border-box;
+ width: 100%;
+ text-align: left;
+ font: bold 16px sans-serif;
+ 
+ padding: 55px 50px;
+ margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+ display: inline-block;
+ vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+ width: 40%;
+}
+ 
+.footer-distributed h3{
+ color:  #ffffff;
+ font: normal 36px 'Cookie', cursive;
+ margin: 0;
+}
+ 
+.footer-distributed h3 span{
+ color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+ color:  #ffffff;
+ margin: 20px 0 12px;
+ padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+ display:inline-block;
+ line-height: 1.8;
+ text-decoration: none;
+ color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+ color:  #8f9296;
+ font-size: 14px;
+ font-weight: normal;
+ margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+ width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+ background-color:  #33383b;
+ color: #ffffff;
+ font-size: 25px;
+ width: 38px;
+ height: 38px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 42px;
+ margin: 10px 15px;
+ vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+ font-size: 17px;
+ line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+ display: inline-block;
+ color: #ffffff;
+ vertical-align: middle;
+ margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+ display:block;
+ font-weight: normal;
+ font-size:14px;
+ line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+ color:  #5383d3;
+ text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+ width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+ line-height: 20px;
+ color:  #92999f;
+ font-size: 13px;
+ font-weight: normal;
+ margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+ display: block;
+ color:  #ffffff;
+ font-size: 14px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+ margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+ display: inline-block;
+ width: 35px;
+ height: 35px;
+ cursor: pointer;
+ background-color:  #33383b;
+ border-radius: 2px;
+ 
+ font-size: 20px;
+ color: #ffffff;
+ text-align: center;
+ line-height: 35px;
+ 
+ margin-right: 3px;
+ margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+ .footer-distributed{
+ font: bold 14px sans-serif;
+ 
+ }
+ 
+ .footer-distributed .footer-left,
+ .footer-distributed .footer-center,
+ .footer-distributed .footer-right{
+ display: block;
+ width: 100%;
+ margin-bottom: 40px;
+ text-align: center;
+ }
+ 
+ .footer-distributed .footer-center i{
+ margin-left: 0;
+ }
+ .main {
+ line-height: normal;
+ font-size: auto;
+ }
+ 
+}

@@ -1,0 +1,325 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.x{
+  margin-top: 4px;
+  width: 250px;
+  height: 55px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.logo{
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  border-bottom: 1px solid #364f6b;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 25px;
+}
+section .gambar1 {
+
+  margin-left: 300px;
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .dika {
+
+  margin-left: 300px;
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .gambar2 {
+  margin-right: 300px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .fadhil {
+  margin-right: 300px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+section .gambar3 {
+  margin: 10px;
+}
+
+section .sulas {
+  margin-left: 300px;
+  float: right;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+
+
+section .gambar4 {
+  margin: 10px;
+  width: 400px;
+}
+
+section .yusuf {
+  margin-right: 300px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+.container{
+  padding: 5px;
+  margin: 10%;
+}
+
+section .imgcontact {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #364f6b;
+}
+
+.kolom .deskripsi .flayanan {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.kolom .deskripsi-iklan {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.kolom .deskripsi-iklan1 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.kolom .deskripsi-iklan .strong-aboutme {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru {
+  background-color: #3f72af;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background-color: #fc6185;
+  text-decoration: none;
+}
+
+a.tbl-pink {
+  background-color: #fc6185;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-pink:hover {
+  background-color: #3f72af;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.aboutwe{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgkelompok{
+  width: 25%;
+  margin: 0 auto;
+}
+
+.imgdetail{
+  box-shadow: 2px 3px 5px black;
+}
+
+.imgkelompok img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.imgkelompok p {
+  font-family: "comic sans ms";
+  font-weight: 800px;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.layanan {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imglayanan {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.imglayanan img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.imglayanan p {
+  font-family: "comic sans ms";
+  font-weight: 800px;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #dedede;
+}
+
+.footer-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
+}
